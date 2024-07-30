@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getInputD = exports.getInput = exports.getInputL = void 0;
+var rl = require("readline-sync");
+var getInputL = function (question) { return rl.question("".concat(question, "\n")); };
+exports.getInputL = getInputL;
+var getInput = function (question) { return rl.question("".concat(question)); };
+exports.getInput = getInput;
+var getInputD = function (question) { return rl.keyIn("".concat(question)); };
+exports.getInputD = getInputD;
